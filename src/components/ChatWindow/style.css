@@ -1,0 +1,175 @@
+.chatWindow {
+
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.chatWindow--header {
+
+    height: 60px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.chatWindow--headerinfo {
+
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.chatWindow--headerinfo .css-ptiqhd-MuiSvgIcon-root {
+
+    display: none;
+}
+
+.chatWindow--avatar {
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 15px;
+
+}
+
+.chatWindow--name {
+
+    font-size: 16px;
+    color: #000;
+
+}
+
+.chatWindow--headerbuttons {
+
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+
+}
+
+.chatWindow--headerbutton {
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all ease .3s;
+
+}
+
+.chatWindow--body {
+
+    flex: 1;
+    overflow-y: auto;
+    background-color: #E5DDD5;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png');
+    padding: 20px 30px;
+
+}
+
+.chatWindow--body::-webkit-scrollbar {
+
+    width: 6px;
+    height: 6px;
+}
+
+.chatWindow--body::-webkit-scrollbar-thumb {
+
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.chatWindow--emojiarea {
+
+    height: 250px;
+    overflow-y: hidden;
+    transition: all ease .3s;
+}
+
+.chatWindow--emojiarea aside{
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.chatWindow--emojiarea aside.emoji-picker-react {
+
+    width: 100%;
+    height: 100%;
+    background-color: #F0F2F5;
+
+}
+
+aside.emoji-picker-react .emoji-group:before {
+
+    background-color: #F0F2F5;
+}
+
+aside.emoji-picker-react input.emoji-search {
+
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    background-color: #EBEBEB;
+}
+
+.chatWindow--footer {
+
+    height: 62px;
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+
+}
+
+.chatWindow--pre {
+
+    display: flex;
+
+}
+
+.chatWindow--inputarea {
+
+    flex: 1;
+}
+
+.chatWindow--inputarea input {
+
+    width: 100%;
+    height: 40px;
+    border: 0;
+    outline: 0;
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #4A4A4A;
+    padding-left: 15px;
+}
+
+.chatWindow--pos {
+
+    display: flex;
+}
+
+
+@media(max-width: 425px) {
+
+    .chatWindow--headerinfo .css-ptiqhd-MuiSvgIcon-root {
+
+        display: block;
+        margin-left: 10px;
+    }
+}
+
+
+
+

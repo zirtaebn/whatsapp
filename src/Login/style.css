@@ -1,0 +1,20 @@
+.login {
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+button { 
+
+    padding: 15px 25px;
+    font-size: 19px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #3B76D6;
+    color: #FFF;
+    border: none;
+    border-radius: 10px;
+}
