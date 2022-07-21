@@ -2,6 +2,8 @@
 
 Clone do WhatsApp utilizando Firebase como banco de dados, Typescript e React.
 
+Link da aplicação utilizando o serviço de Hoisting do Firebase: https://whatsapp-clone-f3a43.web.app/
+
 
 
 # Getting Started with Create React App
